@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <h1> MENU COFFEE <cafe>
+
+    <p>please fill in the coffee menu that you like.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  let person = prompt("Do you like coffee");
+  if (person != null) {
+    document.getElementById("demo").innerHTML =
+    "Hello " + person + "! I like drinking coffee in the morning";
+  }
+}
+</script>

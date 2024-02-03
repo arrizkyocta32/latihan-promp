@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <h1> Call Center <call>
+
+    <p>please click this button if you have problems.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  let person = prompt ("can you help me ? ");
+  if (person != null) {
+    document.getElementById("demo").innerHTML =
+    "Hello " + person + "we are ready to help and serve you happily";
+  }
+}
+</script>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <h1> MENU TITLE SONGS <Songs>
+
+    <p>Click the button to demonstrate the prompt box.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  let person = prompt("My title Songs ");
+  if (person != null) {
+    document.getElementById("demo").innerHTML =
+    "Hello " + person + "! I hope you're happy with the song you like";
+  }
+}
+</script>
